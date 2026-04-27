@@ -1,11 +1,12 @@
 // Modelo
 function obtenerDatos() {
-  return ["manzana", "banana", "pera"];
+  return ["Admin", "Editor", "Cliente"];
 }
 
 // Controlador
 function filtrarDatos(datos) {
-  return datos.filter(d => d !== "banana");
+  return datos.filter(u => u !== "Admin");
+
 }
 
 // Vista
