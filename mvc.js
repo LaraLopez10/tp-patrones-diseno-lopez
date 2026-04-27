@@ -11,7 +11,7 @@ function filtrarDatos(datos) {
 
 // Vista
 function mostrarDatos(datos) {
-  datos.forEach(d => console.log(d));
+  datos.forEach(u => console.log(u));
 }
 
 const datos = obtenerDatos();
